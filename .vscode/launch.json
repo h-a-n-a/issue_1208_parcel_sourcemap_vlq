@@ -1,0 +1,11 @@
+{
+  "configurations": [{
+    "type": "node",
+    "request": "launch",
+    "cwd": "${workspaceFolder}",
+    "name": "Launch via NPM",
+    "runtimeExecutable": "esno",
+    "runtimeArgs": ["tests/index.ts"],
+    "outputCapture": "std"
+  }]
+}
